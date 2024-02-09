@@ -1,0 +1,286 @@
+body{
+    background-color: black;
+    padding:10px;
+
+    overflow-x:hidden;
+    animation:animate 1s;
+user-select:none;
+}
+h1 , p , b {
+   color: rgb(255, 253, 253);
+}
+#nav{
+border-bottom:1px solid white;
+    margin-top:-20px;
+    z-index: 13;
+    background-color: black;
+    width:100vw;
+    margin-right:10vw;
+    height: 80px;
+position:fixed;
+    padding-left:0px;
+    display: flex;
+    justify-content:space-evenly;
+}
+#nav a {
+    align-items:center;
+    display: flex;
+    justify-content:space-between;
+    color:white;
+    font-size:20px;
+text-decoration: none;    
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#nav a:hover{color:rgb(0, 195, 255 ); transition-duration: 300ms;}#nav a:active{color:rgb(0, 4, 255);}
+#logo{
+  height:60%;
+  margin-top:auto;
+  margin-bottom:auto;
+    animation:this 25s infinite;
+    margin-left:-140px;
+}
+@keyframes this{
+    50%{margin-left:-120px;}
+ 
+}
+
+
+
+#icon{
+    margin-left:10px;
+    margin-top:10px;
+    width:80px;
+    height:80px;
+
+}
+#main{
+    margin-top:100px;
+    margin-left:200px;
+    width:750px;
+    border:2px solid white;
+    display:flex;
+}
+#main video{
+    margin-left:-50px;
+    width:500px;
+}
+#main h1{
+    margin-left:50px;
+   color:white;
+    z-index:9;
+font-size:36px;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#icn{
+    width:50px;
+    height:50px;
+
+}
+#d{font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif}
+#insta ,#fb{
+    display:flex;
+    align-items:center;
+}
+#insta a,#fb a{
+color:rgb(0, 96, 186);
+text-decoration:;
+}
+#text{
+    position:relative;
+    display: flex;
+    font-size:20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgb(255, 255, 255);
+margin-left:-10px;
+text-decoration: none;
+}
+#text:hover{
+    position:relative;
+    display: flex;
+   align-items: center;
+text-align: center;
+    font-size:20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgb(163, 192, 255);
+}
+#about{
+    display:flex;
+    flex-wrap:wrap;
+    padding:10px;
+}
+#about h1{
+    font-size:50px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#about p , #about b{
+    padding:10px;
+    font-size:20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+#project-vid{
+    height:80vh;
+}
+#projects{
+position:relative;
+flex-wrap:wrap;
+    width:100vw;
+    height:fit-content;
+    margin-top:100px;
+
+}
+#product-shots{
+ 
+    flex-wrap:wrap;
+        width:100vw;
+        margin-top:100px;
+    
+    }
+#project2 , #project3 ,#project4{
+    width:0%;
+
+} 
+#vid-title{
+    margin-top:-7px;
+    font-size:30px;
+    width:90vw;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#details{
+
+}
+#footer{
+    margin:0px;
+    width:100vw;
+    margin-left:-12px;
+}
+@keyframes animate{
+0%{ 
+    
+    margin-top:200vw;
+    opacity:0.1;
+}
+100%{
+
+    opacity:1; 
+}
+}
+
+
+
+@media only screen and (max-width:480px){
+    #project-vid{
+        width:100vw;
+        height:400px;
+        margin-top:-100px;
+    }
+    #projects{
+    position:relative;
+    flex-wrap:wrap;
+        width:100vw;
+        margin-top:100px;
+    
+    }
+    #product-shots{
+        position:relative;
+        flex-wrap:wrap;
+            width:100vw;
+            margin-top:100px;
+        
+        }
+    #project2 , #project3 ,#project4{
+        width:50%;
+        margin-top:0px;
+    } 
+    #vid-title{
+        margin-top:-7px;
+        font-size:40px;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    body{
+        background-color: black;
+        padding-left:5px;
+
+        overflow-x:hidden;
+        animation:animate 1s;
+    
+    }
+    #nav a {
+
+        font-size:12px;
+    }
+    #nav a:hover{color:rgb(0, 195, 255 ); transition-duration: 300ms;}#nav a:active{color:rgb(0, 4, 255);}
+
+    #logo{
+        height:50%;
+        margin-top:auto;
+        margin-bottom:auto;
+          animation:none;
+          margin-left:-20px;
+      }
+  
+    #nav{
+        left:5px;
+        padding-left:0px;
+    }
+    #icon{
+        margin-left:-0px;
+        margin-top:0px;
+        width:40px;
+        height:40px;
+    
+    }
+    #main{
+   
+        margin-left:-5px;
+        width:328px;
+    }
+    #main video{
+        margin-left:-30px;
+        width:250px;
+    }
+    #main h1{
+        margin-left:10px;
+       color:white;
+        z-index:9;
+    font-size:16px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    #text{
+        position:relative;
+        display: flex;
+        font-size:20px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color:rgb(255, 255, 255);
+    margin-left:-10px;
+    text-decoration: none;
+    }
+    #text:hover{
+        position:relative;
+        display: flex;
+       align-items: center;
+    text-align: center;
+        font-size:20px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color:rgb(163, 192, 255);
+    }
+    #about{
+        display:flex;
+        flex-wrap:wrap;
+        padding:-2px;
+    }
+    #about h1{
+        padding:0px;
+        width:100vw;
+        font-size:20px;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    #about p , #about b{
+   line-height: 29px;
+        padding:0px;
+        width:110vw;
+        margin-left:-5px;
+        font-size:17px;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+}
